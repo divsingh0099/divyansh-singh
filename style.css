@@ -1,0 +1,107 @@
+/* Add your custom styles here */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url("wp10117428-dark-blue-texture-wallpapers.jpg"); /* Add your cool background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color */
+    scroll-behavior: smooth; /* Smooth scroll behavior */
+}
+
+.page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    scroll-snap-align: start;
+}
+a {
+    color: white;
+    text-decoration: none; /* Optional: Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    font-size: 3em; /* Larger font size for "Welcome to My Profile" */
+}
+
+h2 {
+    font-size: 2.5em; /* Larger font size for "About Me" and "Contact Me" */
+}
+
+/* Tabs styles */
+.tabs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333; /* Gun metal gray background color */
+    border-radius: 15px; /* Rounded edges */
+    padding: 10px; /* Add padding */
+}
+
+.tab-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Larger padding for bigger tabs */
+    cursor: pointer;
+    border-radius: 5px; /* Rounded edges */
+    margin-top: 10px; /* Gap between tabs */
+    font-size: 1.5em; /* Larger font size for tab text */
+}
+
+.tab-button:hover {
+    background-color: #555;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Contact Icons styles */
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Add margin to separate from the previous content */
+}
+
+footer ul li {
+    margin: 10px 0; /* Vertical arrangement with margins */
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 3em; /* Enlarge the links in the contact section */
+}
+
+footer ul li a img {
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
